@@ -15,7 +15,7 @@
       "require": "./dist/vue-aliplayer-v3.umd.js"
     }
   },
-  "version": "0.0.1",
+  "version": "3.0.0",
   "publishConfig": {
     "@liho98:registry": "https://npm.pkg.github.com"
   },
