@@ -15,7 +15,7 @@
       "require": "./dist/vue-aliplayer-v3.umd.js"
     }
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/liho98/vue-aliplayer-v2.git"
