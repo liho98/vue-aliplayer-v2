@@ -16,8 +16,6 @@ yarn add vue-aliplayer-v3
 #### 局部注册 App.vue
 
 ```javascript
-
-//推荐第一种(仅v1.2.3)及以上的版本可用
 import { AliPlayerV3 } from "vue-aliplayer-v3"; 
 components:{ AliPlayerV3 }
 ```
