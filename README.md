@@ -1,4 +1,4 @@
-# vue-alipayer-v2
+# vue-alipayer-v3 （只支持vue3）- 主要代码来源 https://github.com/langyuxiansheng/vue-aliplayer-v2
 ## 感谢每一位支持开源的朋友. 这是一个基于Alipayer 开发并封装成vue组件的播放器.
 ### vue中使用Alipayer,播放rtmp,m3u8,mp4视频
 #### [本项目在线演示](https://langyuxiansheng.github.io/vue-aliplayer-v2/)
