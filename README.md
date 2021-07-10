@@ -8,23 +8,9 @@
 
 ## 1.安装使用! 下载安装npm包
 ```bash
-npm i vue-aliplayer-v2 --save
+npm i vue-aliplayer-v3 --save
 or
-yarn add vue-aliplayer-v2 
-```
-
-#### 全局注册 main.js
-
-```javascript
-import VueAliplayerV2 from 'vue-aliplayer-v2';
-
-Vue.use(VueAliplayerV2);
-
-//可选全局配置
-//Vue.use(VueAliplayerV2,{
-    // cssLink: 'https://g.alicdn.com/de/prismplayer/2.8.2/skins/default/aliplayer-min.css',
-    // scriptSrc: 'https://g.alicdn.com/de/prismplayer/2.8.2/aliplayer-min.js'
-//});
+yarn add vue-aliplayer-v3
 ```
 
 #### 局部注册 App.vue
@@ -32,12 +18,8 @@ Vue.use(VueAliplayerV2);
 ```javascript
 
 //推荐第一种(仅v1.2.3)及以上的版本可用
-import VueAliplayerV2 from 'vue-aliplayer-v2';
-components:{ VueAliplayerV2 }
-
-//或者 
-components:{ VueAliplayerV2: VueAliplayerV2.Player }
-
+import { AliPlayerV3 } from "vue-aliplayer-v3"; 
+components:{ AliPlayerV3 }
 ```
 
 ## 2.组件中使用
