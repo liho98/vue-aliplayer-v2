@@ -542,19 +542,22 @@ export default {
       return objClone;
     },
   },
-  beforeDestroy() {
-    //防止重复创建
+  beforeUnmount(){
     this.dispose(); //销毁播放器(防止直播播放的情况下,播放器已经销毁,而后台还在继续下载资源造成卡顿的bug)
-    // const head = document.querySelector('head');
-    // const cssNodes = document.querySelectorAll(`link.app__aliplayer-min-css`);
-    // (html && cssNodes.length > 1) && cssNodes.forEach((item, index)=>{
-    //     if(index != 0) head.removeChild(item);
-    // });
-    // const html = document.querySelector('html');
-    // const jsNodes = document.querySelectorAll(`script.app__aliplayer-min-js`);
-    // (html && jsNodes.length > 1) && jsNodes.forEach((item, index)=>{
-    //     if(index != 0) html.removeChild(item);
-    // });
   },
+  // beforeDestroy() {
+  //   //防止重复创建
+  //   this.dispose(); //销毁播放器(防止直播播放的情况下,播放器已经销毁,而后台还在继续下载资源造成卡顿的bug)
+  //   // const head = document.querySelector('head');
+  //   // const cssNodes = document.querySelectorAll(`link.app__aliplayer-min-css`);
+  //   // (html && cssNodes.length > 1) && cssNodes.forEach((item, index)=>{
+  //   //     if(index != 0) head.removeChild(item);
+  //   // });
+  //   // const html = document.querySelector('html');
+  //   // const jsNodes = document.querySelectorAll(`script.app__aliplayer-min-js`);
+  //   // (html && jsNodes.length > 1) && jsNodes.forEach((item, index)=>{
+  //   //     if(index != 0) html.removeChild(item);
+  //   // });
+  // },
 };
 </script>Î
