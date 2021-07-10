@@ -2,7 +2,7 @@ name: AliPlayerV3
 
 on:
   release:
-    types: [published, created, edited]
+    types: [published]
 
 jobs:
   build:
