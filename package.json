@@ -9,9 +9,15 @@
   "license": "MIT",
   "main": "./dist/vue-aliplayer-v3.umd.js",
   "module": "./dist/vue-aliplayer-v3.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-aliplayer-v3.es.js",
+      "require": "./dist/vue-aliplayer-v3.umd.js"
+    }
+  },
   "version": "0.0.1",
   "publishConfig": {
-    "@liho:registry": "https://npm.pkg.github.com"
+    "@liho98:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "serve": "vite --mode serve",

@@ -13,7 +13,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/entry.js"),
-      name: "AliPlayer",
+      name: "VueAliplayerV3",
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
