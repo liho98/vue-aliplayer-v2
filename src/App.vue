@@ -8,7 +8,8 @@
 </template>
 
 <script>
-import AliPlayerV3 from "@/components/AliPlayerV3.vue";
+// import AliPlayerV3 from "@/components/AliPlayerV3.vue"; // dev
+import { AliPlayerV3 } from "vue-aliplayer-v3"; // after build
 
 export default {
   name: "App",
